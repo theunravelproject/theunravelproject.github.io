@@ -111,3 +111,18 @@ h2 {
   margin-top: 2rem;   /* space above the ## heading */
   margin-bottom: 1rem; /* space below the ## heading */
 }
+
+.back-button {
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+  color: #fff; /* white */
+  text-decoration: none;
+  font-family: "VT323", monospace; /* matches your headers */
+  font-size: 1.4rem;
+  transition: color 0.2s ease;
+}
+
+.back-button:hover {
+  color: #007acc; /* your blue hover color */
+}
