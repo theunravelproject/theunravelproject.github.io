@@ -37,7 +37,7 @@ This is our homepage
       </div>
 
       <div class="text-center">
-        <button type="submit" class="btn btn-primary px-4">Send Message</button>
+        <button type="submit" class="btn custom-send-btn px-4 py-2">Send Message</button>
       </div>
 
     </form>
@@ -51,6 +51,7 @@ This is our homepage
     background-color: #3a3a3a !important;
     color: #ffffff !important;
     border: 1px solid #555 !important;
+    font-family: 'Share Tech Mono', monospace !important;
   }
 
   .custom-input::placeholder {
@@ -62,5 +63,21 @@ This is our homepage
     color: #ffffff !important;
     border-color: #888 !important;
     box-shadow: none !important;
+  }
+
+  /* Custom Send Message button */
+  .custom-send-btn {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    border: 2px solid #ffffff !important;
+    font-family: 'Share Tech Mono', monospace !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .custom-send-btn:hover {
+    background-color: #1a1a1a !important;
+    border-color: #ffffff !important;
+    color: #ffffff !important;
   }
 </style>
