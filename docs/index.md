@@ -46,11 +46,11 @@ This is our homepage
 </div>
 
 <style>
-  /* Dark gray input boxes with white text */
+  /* Black input boxes with white border + white text */
   .custom-input {
-    background-color: #3a3a3a !important;
+    background-color: #000000 !important;
     color: #ffffff !important;
-    border: 1px solid #555 !important;
+    border: 2px solid #ffffff !important;
     font-family: 'Share Tech Mono', monospace !important;
   }
 
@@ -59,9 +59,9 @@ This is our homepage
   }
 
   .custom-input:focus {
-    background-color: #2f2f2f !important;
+    background-color: #000000 !important;
     color: #ffffff !important;
-    border-color: #888 !important;
+    border-color: #ffffff !important;
     box-shadow: none !important;
   }
 
@@ -72,12 +72,4 @@ This is our homepage
     border: 2px solid #ffffff !important;
     font-family: 'Share Tech Mono', monospace !important;
     text-transform: uppercase;
-    letter-spacing: 1px;
-  }
-
-  .custom-send-btn:hover {
-    background-color: #1a1a1a !important;
-    border-color: #ffffff !important;
-    color: #ffffff !important;
-  }
-</style>
+    letter
