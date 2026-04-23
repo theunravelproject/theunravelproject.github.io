@@ -8,7 +8,7 @@ permalink: /team/
 
 <img src="/assets/images/unravelteam.jpg" alt="Team Photo" class="team-photo">
 
-<small>Featured left is Ananya Burman, Featured to the right is Syd Davis</small><br><br>
+<small>[Featured left is Ananya Burman, Featured to the right is Syd Davis]</small><br><br>
 
 Syd Davis is a Public History Master’s student at North Carolina State University. Their primary research focus is the intersection between digitality, public memory, and post-1945 American Conservative life and politics.<br><br>
 
