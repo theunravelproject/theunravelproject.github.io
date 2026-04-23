@@ -6,7 +6,7 @@ permalink: /
 
 <div style="text-align:center;">
 
-# Hello
+ <h1>Hello</h1>
 
 This is our homepage
 
