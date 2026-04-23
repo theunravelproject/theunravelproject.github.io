@@ -4,6 +4,8 @@ title: Home
 permalink: /
 ---
 
+<div class="text-center">
+
 # Hello
 
 This is our homepage
@@ -21,17 +23,17 @@ This is our homepage
       <!-- Optional redirect -->
       <input type="hidden" name="redirectTo" value="https://theunravelproject.github.io/PSYOPtics-Collection/contact-success.html">
 
-      <div class="mb-3">
+      <div class="mb-3 text-start">
         <label class="form-label">Your Name</label>
         <input type="text" name="name" class="form-control custom-input" required>
       </div>
 
-      <div class="mb-3">
+      <div class="mb-3 text-start">
         <label class="form-label">Your Email (optional)</label>
         <input type="email" name="email" class="form-control custom-input">
       </div>
 
-      <div class="mb-3">
+      <div class="mb-3 text-start">
         <label class="form-label">Your Message</label>
         <textarea name="message" class="form-control custom-input" rows="5" required></textarea>
       </div>
@@ -43,6 +45,8 @@ This is our homepage
     </form>
 
   </div>
+</div>
+
 </div>
 
 <style>
@@ -72,4 +76,12 @@ This is our homepage
     border: 2px solid #ffffff !important;
     font-family: 'Share Tech Mono', monospace !important;
     text-transform: uppercase;
-    letter
+    letter-spacing: 1px;
+  }
+
+  .custom-send-btn:hover {
+    background-color: #1a1a1a !important;
+    border-color: #ffffff !important;
+    color: #ffffff !important;
+  }
+</style>
