@@ -6,46 +6,46 @@ permalink: /
 
 <div class="text-center">
 
-# Hello
+  <h1>Hello</h1>
 
-This is our homepage
+  <p>This is our homepage</p>
 
-<div class="d-flex justify-content-center mt-5">
-  <div class="col-12 col-md-8 col-lg-6">
+  <div class="d-flex justify-content-center mt-5">
+    <div class="col-12 col-md-8 col-lg-6">
 
-    <h2 class="text-center mb-4">Contact Us</h2>
+      <h2 class="text-center mb-4">Contact Us</h2>
 
-    <form action="https://api.staticforms.xyz/submit" method="POST">
+      <form action="https://api.staticforms.xyz/submit" method="POST">
 
-      <!-- StaticForms Access Key -->
-      <input type="hidden" name="accessKey" value="sf_ecb49cba207c94bdaa4cdc53">
+        <!-- StaticForms Access Key -->
+        <input type="hidden" name="accessKey" value="sf_ecb49cba207c94bdaa4cdc53">
 
-      <!-- Optional redirect -->
-      <input type="hidden" name="redirectTo" value="https://theunravelproject.github.io/PSYOPtics-Collection/contact-success.html">
+        <!-- Optional redirect -->
+        <input type="hidden" name="redirectTo" value="https://theunravelproject.github.io/PSYOPtics-Collection/contact-success.html">
 
-      <div class="mb-3 text-start">
-        <label class="form-label">Your Name</label>
-        <input type="text" name="name" class="form-control custom-input" required>
-      </div>
+        <div class="mb-3 text-start">
+          <label class="form-label">Your Name</label>
+          <input type="text" name="name" class="form-control custom-input" required>
+        </div>
 
-      <div class="mb-3 text-start">
-        <label class="form-label">Your Email (optional)</label>
-        <input type="email" name="email" class="form-control custom-input">
-      </div>
+        <div class="mb-3 text-start">
+          <label class="form-label">Your Email (optional)</label>
+          <input type="email" name="email" class="form-control custom-input">
+        </div>
 
-      <div class="mb-3 text-start">
-        <label class="form-label">Your Message</label>
-        <textarea name="message" class="form-control custom-input" rows="5" required></textarea>
-      </div>
+        <div class="mb-3 text-start">
+          <label class="form-label">Your Message</label>
+          <textarea name="message" class="form-control custom-input" rows="5" required></textarea>
+        </div>
 
-      <div class="text-center">
-        <button type="submit" class="btn custom-send-btn px-4 py-2">Send Message</button>
-      </div>
+        <div class="text-center">
+          <button type="submit" class="btn custom-send-btn px-4 py-2">Send Message</button>
+        </div>
 
-    </form>
+      </form>
 
+    </div>
   </div>
-</div>
 
 </div>
 
