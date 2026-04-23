@@ -6,9 +6,10 @@ permalink: /
 
 <div style="text-align:center;">
 
- <h1>Hello</h1>
+ <h1>WELCOME TO UNRAVEL</h1>
 
-This is our homepage
+A STATIC PUBLIC BROADCASTING NETWORK
+SEND US A MESSAGE WITH YOUR THOUGHTS, QUESTIONS, OR ANYTHING INTERESTING
 
 <div class="d-flex justify-content-center mt-5">
   <div class="col-12 col-md-8 col-lg-6">
