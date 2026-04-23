@@ -10,7 +10,7 @@ permalink: /
  
 UNRAVEL hosts an array of accessible scholarly knowledge in the form of video essays, a popular form of intimate scholarship that provides all of the qualities of a written essay, with the advantage of direct engagement with the authors. Accompanying the new relational element, it provides an array of interactive visualizations of the research through digital collections and other cutting-edge data graphics.<br><br>
 
-###SEND US A MESSAGE WITH YOUR THOUGHTS, QUESTIONS, OR ANYTHING INTERESTING
+### SEND US A MESSAGE WITH YOUR THOUGHTS, QUESTIONS, OR ANYTHING INTERESTING
 
 <div class="d-flex justify-content-center mt-5">
   <div class="col-12 col-md-8 col-lg-6">
