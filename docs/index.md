@@ -4,12 +4,14 @@ title: Home
 permalink: /
 ---
 
+<div style="text-align:center;">
+
 # Hello
 
 This is our homepage
 
 <div class="d-flex justify-content-center mt-5">
-  <div class="col-12 col-md-8 col-lg-6 text-center">
+  <div class="col-12 col-md-8 col-lg-6">
 
     <h2 class="mb-4">Contact Us</h2>
 
@@ -36,27 +38,16 @@ This is our homepage
         <textarea name="message" class="form-control custom-input" rows="5" required></textarea>
       </div>
 
-      <div class="text-center">
-        <button type="submit" class="btn custom-send-btn px-4 py-2">Send Message</button>
-      </div>
+      <button type="submit" class="btn custom-send-btn px-4 py-2">Send Message</button>
 
     </form>
 
   </div>
 </div>
 
+</div>
+
 <style>
-  /* Center all content on the homepage */
-  main.container,
-  .container {
-    text-align: center;
-  }
-
-  /* But keep form labels left-aligned for readability */
-  .text-start {
-    text-align: left !important;
-  }
-
   /* Black input boxes with white border + white text */
   .custom-input {
     background-color: #000000 !important;
