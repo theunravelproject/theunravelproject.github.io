@@ -23,6 +23,9 @@ SEND US A MESSAGE WITH YOUR THOUGHTS, QUESTIONS, OR ANYTHING INTERESTING
       <!-- Optional redirect -->
     <input type="hidden" name="redirectTo" value="https://theunravelproject.github.io/contact-success.html">
 
+     <!-- Send submissions to GitHub Issues -->
+  <input type="hidden" name="github" value="theunravelproject/theunravelproject.github.io">
+
       <div class="mb-3 text-start">
         <label class="form-label">Your Name</label>
         <input type="text" name="name" class="form-control custom-input" required>
