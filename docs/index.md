@@ -30,17 +30,17 @@ UNRAVEL hosts an array of accessible scholarly knowledge in the form of video es
      <!-- Send submissions to GitHub Issues -->
   <input type="hidden" name="github" value="theunravelproject/theunravelproject.github.io">
 
-      <div class="mb-3 text-start">
+      <div class="mb-4 text-start">
         <label class="form-label">Your Name</label>
         <input type="text" name="name" class="form-control custom-input" required>
       </div>
 
-      <div class="mb-3 text-start">
+      <div class="mb-4 text-start">
         <label class="form-label">Your Email (optional)</label>
         <input type="email" name="email" class="form-control custom-input">
       </div>
 
-      <div class="mb-3 text-start">
+      <div class="mb-4 text-start">
         <label class="form-label">Your Message</label>
         <textarea name="message" class="form-control custom-input" rows="5" required></textarea>
       </div>
