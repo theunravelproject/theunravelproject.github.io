@@ -21,7 +21,7 @@ SEND US A MESSAGE WITH YOUR THOUGHTS, QUESTIONS, OR ANYTHING INTERESTING
       <input type="hidden" name="accessKey" value="sf_ecb49cba207c94bdaa4cdc53">
 
       <!-- Optional redirect -->
-      <input type="hidden" name="redirectTo" value="https://theunravelproject.github.io/PSYOPtics-Collection/contact-success.html">
+    <input type="hidden" name="redirectTo" value="https://theunravelproject.github.io/contact-success.html">
 
       <div class="mb-3 text-start">
         <label class="form-label">Your Name</label>
