@@ -215,3 +215,61 @@ STEP 4 — Sort oldest first
 
 </div>
 
+<!-- ========================= -->
+<!-- REPLY FORM -->
+<!-- ========================= -->
+
+<h3 id="reply-section" style="margin-top:3rem; color:white; font-family:'Share Tech Mono', monospace;">
+  Reply to a Comment
+</h3>
+
+<p style="color:white; font-family:'Share Tech Mono', monospace;">
+  To reply, enter the comment number below.
+</p>
+
+<form action="https://api.staticforms.xyz/submit" method="post" style="max-width: 600px; margin: 0 auto; text-align:left;">
+
+  <input type="hidden" name="accessKey" value="YOUR_ACCESS_KEY_HERE">
+  <input type="hidden" name="redirectTo" value="https://theunravelproject.github.io/episodes/#episode-1">
+  <input type="hidden" name="episode" value="Episode 1">
+  <input type="hidden" name="github" value="theunravelproject/theunravelproject.github.io">
+
+  <!-- Reply-to comment number -->
+  <div style="margin-bottom: 1.5rem;">
+    <label style="color:white; font-family:'Share Tech Mono', monospace;">Replying to comment #</label><br>
+    <input 
+      type="text" 
+      name="reply-to" 
+      class="custom-input"
+      style="width: 100%; padding: 0.5rem;"
+      required>
+  </div>
+
+  <!-- Name -->
+  <div style="margin-bottom: 1.5rem;">
+    <label style="color:white; font-family:'Share Tech Mono', monospace;">Name (optional)</label><br>
+    <input 
+      type="text" 
+      name="name" 
+      class="custom-input"
+      style="width: 100%; padding: 0.5rem;">
+  </div>
+
+  <!-- Message -->
+  <div style="margin-bottom: 1.5rem;">
+    <label style="color:white; font-family:'Share Tech Mono', monospace;">Your reply</label><br>
+    <textarea 
+      name="message" 
+      rows="5" 
+      required
+      class="custom-input"
+      style="width: 100%; padding: 0.5rem;"></textarea>
+  </div>
+
+  <div style="text-align:right;">
+    <button type="submit" class="custom-button">
+      POST REPLY
+    </button>
+  </div>
+
+</form>
