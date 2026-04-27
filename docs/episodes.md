@@ -4,9 +4,32 @@ title: Episodes
 permalink: /episodes/
 ---
 
-# EPISODES
+<style>
+input.custom-input,
+textarea.custom-input {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+  font-family: 'Share Tech Mono', monospace;
+}
 
-# Episodes
+input.custom-input::placeholder,
+textarea.custom-input::placeholder {
+  color: #ccc;
+}
+
+button.custom-button {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+  font-family: 'Share Tech Mono', monospace;
+  padding: 0.5rem 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+</style>
+
+# EPISODES
 
 <div style="margin-bottom: 2rem;">
   <h3>Table of Contents</h3>
@@ -63,7 +86,7 @@ permalink: /episodes/
 
   <!-- Email -->
   <div style="margin-bottom: 1.5rem;">
-    <label for="email" style="color:white; font-family:'Share Tech Mono', monospace;">Email (optional)</label><br>
+    <label for="email" style="color:white; font-family:'Share Tech Mono', monospace;">Email (optional, not shown publicly)</label><br>
     <input 
       type="email" 
       id="email" 
