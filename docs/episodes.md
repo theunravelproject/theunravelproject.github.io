@@ -118,3 +118,100 @@ button.custom-button {
   </div>
 
 </form>
+
+<!-- ========================= -->
+<!-- EPISODE 1 PUBLIC COMMENTS -->
+<!-- ========================= -->
+
+<h3 style="margin-top:3rem; color:white; font-family:'Share Tech Mono', monospace;">
+  Public Discussion
+</h3>
+
+{% comment %}
+STEP 1 — Pull all GitHub Issues for this repo
+GitHub Pages automatically exposes them via site.github.issues
+{% endcomment %}
+
+{% assign all_comments = site.github.issues %}
+
+{% comment %}
+STEP 2 — Filter to Episode 1 only
+StaticForms sends "episode: Episode 1" in the Issue body.
+We match that.
+{% endcomment %}
+
+{% assign ep1_comments = all_comments | where_exp: "item", "item.body contains 'Episode 1'" %}
+
+{% comment %}
+STEP 3 — Separate top-level comments from replies
+Replies will contain "reply-to:ISSUE_NUMBER"
+Top-level comments will NOT contain "reply-to:"
+{% endcomment %}
+
+{% assign top_level = ep1_comments | reject: "body", "reply-to:" %}
+
+{% comment %}
+STEP 4 — Sort oldest first
+{% endcomment %}
+
+{% assign sorted_top = top_level | sort: "created_at" %}
+
+<div style="margin-top:2rem;">
+
+  {% for comment in sorted_top %}
+    <div style="border:1px solid white; padding:1rem; margin-bottom:1.5rem;">
+
+      <!-- Comment header -->
+      <div style="color:white; font-family:'Share Tech Mono', monospace; margin-bottom:0.5rem;">
+        <strong>{{ comment.user.login }}</strong>
+        <span style="opacity:0.6; font-size:0.9rem;">
+          — {{ comment.created_at | date: "%B %d, %Y" }}
+        </span>
+      </div>
+
+      <!-- Comment body -->
+      <div style="color:white; font-family:'Share Tech Mono', monospace; margin-bottom:1rem;">
+        {{ comment.body | newline_to_br }}
+      </div>
+
+      <!-- Reply button (scrolls to reply form) -->
+      <a href="#reply-to-{{ comment.number }}" 
+         style="color:white; font-family:'Share Tech Mono', monospace; text-decoration:underline;">
+        Reply
+      </a>
+
+      <!-- ========================= -->
+      <!-- NESTED REPLIES FOR THIS COMMENT -->
+      <!-- ========================= -->
+
+      {% assign replies = ep1_comments | where_exp: "item", "item.body contains 'reply-to:{{ comment.number }}'" %}
+      {% assign sorted_replies = replies | sort: "created_at" %}
+
+      {% if sorted_replies.size > 0 %}
+        <div style="margin-left:2rem; margin-top:1rem;">
+
+          {% for reply in sorted_replies %}
+            <div style="border-left:1px solid white; padding-left:1rem; margin-bottom:1rem;">
+
+              <div style="color:white; font-family:'Share Tech Mono', monospace; margin-bottom:0.3rem;">
+                <strong>{{ reply.user.login }}</strong>
+                <span style="opacity:0.6; font-size:0.9rem;">
+                  — {{ reply.created_at | date: "%B %d, %Y" }}
+                </span>
+              </div>
+
+              <div style="color:white; font-family:'Share Tech Mono', monospace;">
+                {{ reply.body | newline_to_br }}
+              </div>
+
+            </div>
+          {% endfor %}
+
+        </div>
+      {% endif %}
+
+    </div>
+  {% endfor %}
+
+</div>
+
