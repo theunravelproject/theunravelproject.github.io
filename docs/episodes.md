@@ -72,6 +72,7 @@ button.custom-button {
   <input type="hidden" name="accessKey" value="sf_ecb49cba207c94bdaa4cdc53">
   <input type="hidden" name="redirectTo" value="https://theunravelproject.github.io/episodes/#episode-1">
   <input type="hidden" name="episode" value="Episode 1">
+  <input type="hidden" name="github" value="theunravelproject/theunravelproject.github.io">
 
   <!-- Name -->
   <div style="margin-bottom: 1.5rem;">
