@@ -106,14 +106,6 @@ OUR GITHUB: https://github.com/theunravelproject/theunravelproject.github.io
 
 
 
-
-
-
-
-
-
-
-
 ## BIBLIOGRAPHY:
 
 Ancestry, “Copyright Policy,” https://www.ancestnotry.com/c/legal/copyright-policy Accessed: March 10, 2026
